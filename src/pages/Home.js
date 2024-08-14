@@ -1,11 +1,10 @@
 import React from 'react'
 import TypedText from './../components/TypedText'
+import { Link } from 'react-router-dom';
 
 function Home() {
 
   const strings = ['Hello!', 'Welcome to my Portfolio', 'I am a Fullstack Developer', 'Reach out to me'];
-
-    
 
 
 return (
@@ -18,9 +17,10 @@ return (
               <h6 className="col-md-8 fs-4 intro my-5">
                 <TypedText strings={strings} />
               </h6>
-              <button className="btn btn-lg btn-outline-info mt-5" type="button">
+              <Link className="btn btn-lg btn-outline-info mt-2" type="button">
                 Download CV
-              </button>
+              </Link>
+              
             </div>
           </div> 
         </div>

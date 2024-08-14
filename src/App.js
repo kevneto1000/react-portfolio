@@ -12,7 +12,6 @@ const Home = React.lazy(() => import("./pages/Home"))
 const About = React.lazy(() => import("./pages/About"))
 const Service = React.lazy(() => import("./pages/Service"))
 const Project = React.lazy(() => import("./pages/Project"))
-const Contact = React.lazy(() => import("./pages/Contact"))
 
 function App() {
 
@@ -30,8 +29,8 @@ function App() {
   }, []);
 
   return (
-    <React.Suspense fallback={<div style={{position:"absolute", top:"50%", left:"50%"}}>
-      <img src={("./../loader.gif")} alt="" />
+    <React.Suspense fallback={<div style={{position:"absolute", top:"30%", left:"20%"}}>
+      <img className='img-fluid' src={("./../loader.gif")} alt="" />
     </div>}>
       <BrowserRouter>
 
@@ -42,7 +41,6 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />
           <Route path="/project" element={<Project />} />
-          <Route path="/contact" element={<Contact />} />
         </Routes>
 
       </BrowserRouter>

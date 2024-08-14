@@ -90,4 +90,86 @@ h2 span{
     color: var(--orange-color);
 }
 
+.btn{
+    text-decoration: none;
+    background: var(--navyblue-color);
+    color: var(--orange-color);
+    padding: 10px 18px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0;
+    border-radius: 5px;
+    cursor: pointer;  
+}
 
+.btn:hover{
+    background: var(--orange-color);
+    color: var(--navyblue-color);
+    transition: all 1s ease;
+}
+
+.center-text{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--navyblue-color);
+}
+
+.center-text span{
+    color: var(--orange-color);
+}
+
+.services{
+    padding: 3rem;
+}
+
+
+.box{
+    width: 18rem !important;
+    padding: 2rem;
+    margin: 2rem;
+    border: 4px solid var(--navyblue-color) !important;
+    border-radius: 10px;
+}
+
+.box h3{
+    text-align: center;
+    color: var(--navyblue-color);
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold !important;
+}
+
+.box h3 span{
+    color: var(--orange-color);
+}
+
+.box:hover{
+    box-shadow: 3px 0 20px var(--orange-color);
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+
+#btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid var(--navyblue-color);
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.5s;
+}
+
+#btn:hover{
+    background: var(--navyblue-color);
+}
+
+.social-icons{
+    display: flex;
+    gap: 10px;
+}
+
+.project{
+    height: 75vh;
+}

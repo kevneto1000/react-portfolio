@@ -8,11 +8,11 @@ function About() {
 
     <div className="container">
       <div className="row">
-        <div className="col-md-6 about-img">
+        <div data-aos="fade-left" className="col-md-6 about-img">
           <img src={("./../../kev_port_image-removebg-preview.png")} alt="" />
         </div>
 
-        <div className="col-md-6 about-text mt-5">
+        <div data-aos="fade-right" className="col-md-6 about-text mt-5">
         <h2 className="fw-bold">I am a FullStack <span>Developer</span></h2>
             <div className="exp-area">
               
