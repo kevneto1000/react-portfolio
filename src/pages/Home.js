@@ -1,6 +1,6 @@
 import React from 'react'
 import TypedText from './../components/TypedText'
-import { Link } from 'react-router-dom';
+import resume from './../../src/resume.pdf'
 
 function Home() {
 
@@ -17,9 +17,9 @@ return (
               <h6 className="col-md-8 fs-4 intro my-5">
                 <TypedText strings={strings} />
               </h6>
-              <Link className="btn btn-lg btn-outline-info mt-2" type="button">
-                Download CV
-              </Link>
+              <button className="btn btn-lg btn-outline-info mt-2 cv">
+                <a href={resume} download='resume'>Download CV</a>
+              </button>
               
             </div>
           </div> 
