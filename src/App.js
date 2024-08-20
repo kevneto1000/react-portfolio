@@ -29,8 +29,8 @@ function App() {
   }, []);
 
   return (
-    <React.Suspense fallback={<div style={{position:"absolute", top:"30%", left:"20%"}}>
-      <img className='img-fluid' src={("./../loader.gif")} alt="" />
+    <React.Suspense fallback={<div style={{position:"absolute", top:"50%", left:"50%"}}>
+      <h4>Loading...</h4>
     </div>}>
       <BrowserRouter>
 

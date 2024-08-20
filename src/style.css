@@ -50,6 +50,11 @@ body{
     font-weight: bold;
 }
 
+.cv a{
+    text-decoration: none;
+    color: var(--navyblue-color);
+}
+
 
 /* About Section */
 
@@ -124,7 +129,7 @@ h2 span{
 
 
 .box{
-    width: 18rem !important;
+    width: 23rem !important;
     padding: 2rem;
     margin: 2rem;
     border: 4px solid var(--navyblue-color) !important;
