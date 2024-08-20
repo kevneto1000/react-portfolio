@@ -18,7 +18,7 @@ function Navbar() {
           alert('Email sent successfully');
         },
         (error) => {
-          alert(error.text);
+          console.log(error.text);
         },
       );
   }
