@@ -3,10 +3,10 @@ import React from 'react'
 function About() {
   return (
 
-
-
-
     <div className="container">
+      <div className="center-text mt-4">
+        <h2 className="fw-bolder display-5">About <span>Me</span></h2>
+      </div>
       <div className="row">
         <div data-aos="fade-left" className="col-md-6 about-img">
           <img src={("./../../kev_port_image-removebg-preview.png")} alt="" />
@@ -19,7 +19,7 @@ function About() {
                 <p className="exp">
                     Experience:
                      <span>
-                        3 years
+                        2 years
                     </span> <br /> <br />
                     Specialty:
                      <span>
