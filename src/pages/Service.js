@@ -25,6 +25,10 @@ function Service() {
             <Skills
               name="JavaScript"
             />
+
+            <Skills
+              name="JQuery"
+            />
           </div>
 
           <hr />
@@ -51,7 +55,7 @@ function Service() {
           />
 
           <Skills
-            name="Git"
+            name="Github"
           />
 
           <Skills

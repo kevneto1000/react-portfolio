@@ -2,7 +2,8 @@ import React from 'react'
 import TypedText from './../components/TypedText'
 import resume from './../../src/resume.pdf'
 
-import { FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaWhatsapp, FaTelegramPlane } from 'react-icons/fa';
+import { BsTwitterX } from "react-icons/bs";
 
 function Home() {
 
@@ -31,6 +32,12 @@ function Home() {
                 </a>
                 <a href="https://wa.me/07015796524" target="_blank" rel="noopener noreferrer">
                   <FaWhatsapp size={32} />
+                </a>
+                <a href="https://x.com/netodboss" target="_blank" rel="noopener noreferrer">
+                  <BsTwitterX size={32} />
+                </a>
+                <a href="https://t.me/kevin_neto3" target="_blank" rel="noopener noreferrer">
+                  <FaTelegramPlane size={32} />
                 </a>
               </div>
             </div>
