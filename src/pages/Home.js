@@ -1,6 +1,6 @@
 import React from 'react'
 import TypedText from './../components/TypedText'
-import resume from './../../src/resume.pdf'
+import CV from '../../src/myCV.pdf'
 
 import { FaLinkedin, FaGithub, FaWhatsapp, FaTelegramPlane } from 'react-icons/fa';
 import { BsTwitterX } from "react-icons/bs";
@@ -12,7 +12,7 @@ function Home() {
 
   return (
     <div className="container">
-      <div className="row">
+      <div className="row align-items-center">
         <div data-aos="fade-up" className="col-md-6">
           <div className="p-5 mb-4 mt-5">
             <div className="container-fluid pt-5 mt-5">
@@ -21,7 +21,7 @@ function Home() {
                 <TypedText strings={strings} />
               </h6>
               <button className="btn btn-lg btn-outline-info mt-2 cv">
-                <a href={resume} download='resume'>Download CV</a>
+                <a href={CV} download='CV'>Download CV</a>
               </button>
               <div className="socials">
                 <a href="https://www.linkedin.com/in/kevin-nduka-0901161b2/" target="_blank" rel="noopener noreferrer">
